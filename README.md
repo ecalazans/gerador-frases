@@ -22,23 +22,19 @@ cd gerador-frases
 
 2. **Instale as dependências:**
 npm install
-# ou
 yarn
 
 3. **Execute o projeto:**
 npm run dev
-# ou
 yarn dev
 
 4. **Acesse no navegador:**
 http://localhost:5173
 
 ✨ **Funcionalidades**
-Geração de frases motivacionais aleatórias
-
-Estilização simples e agradável
-
-Totalmente responsivo
+- Geração de frases motivacionais aleatórias
+- Estilização simples e agradável
+- Totalmente responsivo
 
 📁 **Estrutura de pastas (exemplo)**
 gerador-frases/
