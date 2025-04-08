@@ -17,32 +17,30 @@ Você pode visualizar o projeto em funcionamento [aqui](https://github.com/ecala
 ## 🔧 Instalação e uso
 
 1. **Clone o repositório:**
-
-```bash
 git clone https://github.com/ecalazans/gerador-frases.git
 cd gerador-frases
 
-2. Instale as dependências:
+2. **Instale as dependências:**
 npm install
 # ou
 yarn
 
-3. Execute o projeto:
+3. **Execute o projeto:**
 npm run dev
 # ou
 yarn dev
 
-4. Acesse no navegador:
+4. **Acesse no navegador:**
 http://localhost:5173
 
-✨ Funcionalidades
+✨ **Funcionalidades**
 Geração de frases motivacionais aleatórias
 
 Estilização simples e agradável
 
 Totalmente responsivo
 
-📁 Estrutura de pastas (exemplo)
+📁 **Estrutura de pastas (exemplo)**
 gerador-frases/
 ├── public/
 ├── src/
@@ -53,5 +51,5 @@ gerador-frases/
 ├── package.json
 └── README.md
 
-🤝 Contribuição
+🤝 **Contribuição**
 Sinta-se à vontade para abrir issues, sugestões ou pull requests!
