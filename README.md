@@ -1,54 +1,57 @@
-# React + TypeScript + Vite
+# 🧠 Gerador de Frases
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um gerador de frases motivacionais simples e direto, criado com React. Ideal para treinar conceitos de componentes, estados e eventos, enquanto cria algo inspirador ✨
 
-Currently, two official plugins are available:
+## 🚀 Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você pode visualizar o projeto em funcionamento [aqui](https://github.com/ecalazans/gerador-frases) — ou execute localmente seguindo os passos abaixo.
 
-## Expanding the ESLint configuration
+## 📦 Tecnologias utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite (ou outro bundler, se diferente)
+- CSS (ou Tailwind, se estiver usando)
+- HTML
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🔧 Instalação e uso
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone o repositório:**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```bash
+git clone https://github.com/ecalazans/gerador-frases.git
+cd gerador-frases
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+2. Instale as dependências:
+npm install
+# ou
+yarn
+
+3. Execute o projeto:
+npm run dev
+# ou
+yarn dev
+
+4. Acesse no navegador:
+http://localhost:5173
+
+✨ Funcionalidades
+Geração de frases motivacionais aleatórias
+
+Estilização simples e agradável
+
+Totalmente responsivo
+
+📁 Estrutura de pastas (exemplo)
+gerador-frases/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+└── README.md
+
+🤝 Contribuição
+Sinta-se à vontade para abrir issues, sugestões ou pull requests!
