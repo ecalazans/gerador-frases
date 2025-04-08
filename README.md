@@ -37,6 +37,7 @@ http://localhost:5173
 - Totalmente responsivo
 
 📁 **Estrutura de pastas (exemplo)**
+```bash
 gerador-frases/
 ├── public/
 ├── src/
@@ -46,6 +47,6 @@ gerador-frases/
 │   └── main.tsx
 ├── package.json
 └── README.md
-
+```
 🤝 **Contribuição**
 Sinta-se à vontade para abrir issues, sugestões ou pull requests!
